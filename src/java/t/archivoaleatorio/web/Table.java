@@ -70,7 +70,7 @@ public class Table {
             archivo.writeUTF("\r\n");
         }
     }
-    
+
     public void leerTabla(int codigo) throws IOException {
         existe(codigo);
         if (elExi == true) {
@@ -84,7 +84,7 @@ public class Table {
             System.out.println(archivo.readChar() + " ");
         }
     }
-    
+
     public void actualizarTabla(int codigo, String Campo, String newDato) throws IOException {
         existe(codigo);
         if (elExi == true) {
@@ -100,7 +100,7 @@ public class Table {
             }
         }
     }
-    
+
     public void borrarRegistro(int codigo) throws IOException {
         existe(codigo);
         if (elExi == true) {
@@ -109,6 +109,5 @@ public class Table {
             System.out.println("Elemento Eliminado");
         }
     }
-    
-    
+
 }
