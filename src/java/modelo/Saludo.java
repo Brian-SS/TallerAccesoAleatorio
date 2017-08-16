@@ -1,7 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *  TALLER ARCHIVOS ACCESO ALEATORIO
+ *  co-Author ::: Juan Albarracin
+ *  co-Author ::: Mario Bolaños
+ *  co-Author ::: Brian Sterling
+ *  Professor ::: Fabian Giraldo
+ *    Program ::: Bases de Datos
  */
 package modelo;
 
