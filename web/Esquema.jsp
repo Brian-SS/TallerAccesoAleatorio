@@ -59,10 +59,9 @@
                 }
             %>
             <a href="index.jsp"><input type="button" value="INICIO" name="schemaReturn" style="font-size:22px;"/></a>
-            <br>
-            <br>
+
             <div style="position: absolute; bottom: 5px;">
-                <center>Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.</center>
+                Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.
             </div>
         </center>
     </body>

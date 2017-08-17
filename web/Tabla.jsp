@@ -20,9 +20,9 @@
             <h2> - TABLE - </h2>
         
             <a href="index.jsp"><input type="button" value="INICIO" name="tableReturn" style="font-size:22px;"/></a>
-            <br>
-            <br>
-            <footer>&copy; Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.</footer>
+            <div style="position: absolute; bottom: 5px;">
+                Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.
+            </div>
         </center>
     </body>
 </html>
