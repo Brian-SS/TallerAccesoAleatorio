@@ -24,46 +24,11 @@
             <table>
                 <tr>
                     <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton"/></a></th>
-                    <br></br>
                     <th><a href="Tabla.jsp"><input type="button" value="TABLE" name="tableButton"/></a></th>
-                    <br></br>
                     <th><a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton"/></a></th>
                 </tr>
             </table>
-            
-            
-            
-            
-            
-            <%
-                String respuesta = (String) request.getAttribute("respuesta");
-                if (respuesta != null && respuesta.length() > 0) 
-                {
-            %>
-            <h1><%=respuesta%></h1>
-            <%
-                }
-            %>
-            <%--Action: URL del Servlet --%>
-            <form action="Controlador" method="POST">
-                <input type="text" name="saludo"/>
-                <input type="submit" name="enviar"/>
-            </form>
-            <%
-                ArrayList<String> array = (ArrayList) request.getAttribute("array");
-                if (array != null)
-                {
-            %>       
-            <h1>Resultado Lista </h1>
-            <%               
-                    for (String elemento : array)
-                    {
-            %>
-            <h2><%=elemento%>
-            <%
-                    }
-                }
-            %>
+            <br></br>
             <br></br>
             <div style="position: relative; bottom: 5px;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>    
