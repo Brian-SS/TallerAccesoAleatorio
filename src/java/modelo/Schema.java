@@ -28,10 +28,9 @@ public class Schema
         return "Hola Asshole";
       
     }
-    public String crearArchivo() throws FileNotFoundException
+    public void crearArchivo() throws FileNotFoundException
     {
         this.archivo = new RandomAccessFile("Schema.txt", "rw");
-        return "Hola Asshole, again you ugly";
     }
 
     public void existe(int codigo) throws IOException

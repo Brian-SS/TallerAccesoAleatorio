@@ -24,6 +24,9 @@ public class TArchivoAleatorioWeb {
         
         Column cml= new Column();
         cml.crearArchivo();
+       
+                
+                
 
         
 //        cml.crearColumn("String", "Elemento",1);
