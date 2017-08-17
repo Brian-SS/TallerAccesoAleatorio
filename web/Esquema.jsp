@@ -19,6 +19,13 @@
         <center>
             <h1>Hello World!</h1>
             <form action="ControladorSchema" method="POST"></form>
+            <form>
+                First name:<input type="text" name="firstname">
+                <br>
+                Last name: <input type="text" name="lastname">
+            </form> 
+            
+            
             <%= modelo.Schema.saludar() %>
             
             
