@@ -1,7 +1,10 @@
 <%-- 
-    Document   : index.jsp
-    Created on : 3/08/2017, 09:45:23 AM
-    Author     : Labing I5
+ *  TALLER ARCHIVOS ACCESO ALEATORIO
+ *  co-Author ::: Juan Albarracin
+ *  co-Author ::: Mario Bolaños
+ *  co-Author ::: Brian Sterling
+ *  Professor ::: Fabian Giraldo
+ *    Program ::: Bases de Datos
 --%>
 
 <%@page import="java.util.ArrayList"%>
