@@ -21,13 +21,17 @@ public class Schema
     int tamañoRg;
     boolean elExi = true;
     RandomAccessFile archivo;
-    public static String saludar()
+    public static String saludar() throws FileNotFoundException
     {
-      return "Hola Asshole";
+        Schema esquema = new Schema();
+        esquema.crearArchivo();
+        return "Hola Asshole";
+      
     }
-    public static void crearArchivo() throws FileNotFoundException
+    public String crearArchivo() throws FileNotFoundException
     {
         this.archivo = new RandomAccessFile("Schema.txt", "rw");
+        return "Hola Asshole";
     }
 
     public void existe(int codigo) throws IOException
