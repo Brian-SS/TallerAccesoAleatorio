@@ -25,7 +25,7 @@ public class Schema
     {
       return "Hola Asshole";
     }
-    public void crearArchivo() throws FileNotFoundException
+    public static void crearArchivo() throws FileNotFoundException
     {
         this.archivo = new RandomAccessFile("Schema.txt", "rw");
     }
