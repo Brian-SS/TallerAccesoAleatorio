@@ -21,6 +21,9 @@
             <%-- <a href="Columna.jsp">Liqui<input type="button" value="Cancel" name="cancel"/></a>--%>
             <img src="METAMODEL.png" alt="Mountain View" style="width:204px;height:128px;">
             <br></br>
+            <h1>BIENVENIDOS</h1>
+            <br></br>
+            <br></br>
             <table style="width:100%">
                 <tr>
                     <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton"/></a></th>
@@ -38,7 +41,7 @@
                 if (respuesta != null && respuesta.length() > 0) 
                 {
             %>
-            <H1><%=respuesta%> </h1>
+            <h1><%=respuesta%></h1>
             <%
                 }
             %>
