@@ -17,7 +17,6 @@
     </head>
     <body>
         <center>
-
             <img src="METAMODEL.png" alt="Mountain View" style="width:204px;height:128px;">
             <br></br>
             <h1>BIENVENIDOS</h1>
@@ -61,15 +60,9 @@
             <h2><%=elemento%>
             <%
                     }
-    }
+                }
             %>
-            <div style="position: relative;background-color: blue; width: 600px; height: 800px;">    
-
-            <div style="position: absolute; bottom: 5px; background-color: green">
-    TEST (C) 2010
-    </div>
-</div>
-            <div style="position: relative; bottom: 5px;">911 WAS AN INSIDE JOB</div>
+            <div style="position: relative; bottom: 5px;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>    
     </body>
 </html>
