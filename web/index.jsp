@@ -17,6 +17,13 @@
     </head>
     <body>
         <center>
+            <%-- <a href="Columna.jsp">Creazione Nuovo Corso</a>--%>
+            <%-- <a href="Columna.jsp">Liqui<input type="button" value="Cancel" name="cancel"/></a>--%>
+            <a href="Esquema.jsp"><input type="button" value="COLUMN" name="columnButton"/></a>
+            <a href="Tabla.jsp"><input type="button" value="COLUMN" name="columnButton"/></a>
+            <a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton"/></a>
+            
+            
             <%
                 String respuesta = (String) request.getAttribute("respuesta");
                 if (respuesta != null && respuesta.length() > 0) 
