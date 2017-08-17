@@ -21,8 +21,8 @@ import javax.servlet.http.HttpServletResponse;
  * @author BRIAN
  */
 @WebServlet(name = "ControladorSchema", urlPatterns = {"/ControladorSchema"})
-public class ControladorSchema extends HttpServlet {
-
+public class ControladorSchema extends HttpServlet
+{
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -32,10 +32,12 @@ public class ControladorSchema extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
+        try (PrintWriter out = response.getWriter())
+        {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -87,5 +89,4 @@ public class ControladorSchema extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }

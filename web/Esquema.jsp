@@ -18,6 +18,7 @@
     <body>
         <center>
             <h1>Hello World!</h1>
+            <form action="ControladorSchema" method="POST"></form>
             <%
                 String respuesta = (String) request.getAttribute("respuesta");
                 if (respuesta != null && respuesta.length() > 0) 
@@ -28,10 +29,7 @@
                 }
             %>
             <%--Action: URL del Servlet --%>
-            <form action="Controlador" method="POST">
-                <input type="text" name="saludo"/>
-                <input type="submit" name="enviar"/>
-            </form>
+            <form action="ControladorSchema" method="POST"></form>
             <%
                 ArrayList<String> array = (ArrayList) request.getAttribute("array");
                 if (array != null)
