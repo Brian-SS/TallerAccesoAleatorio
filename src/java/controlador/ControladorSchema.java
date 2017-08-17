@@ -34,8 +34,6 @@ public class ControladorSchema extends HttpServlet
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-        Schema esquema = new Schema();
-        esquema.saludar();
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter())
         {
