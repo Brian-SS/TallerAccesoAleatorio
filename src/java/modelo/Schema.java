@@ -26,7 +26,6 @@ public class Schema
         System.out.println("createot");
         esquema.crearArchivo();
         return "Hola Asshole";
-      
     }
     
     public void crearArchivo() throws FileNotFoundException
@@ -57,13 +56,10 @@ public class Schema
             System.out.println("Tamano actual: " + tamañoRg);
             archivo.writeInt(1);
             archivo.writeUTF("\r\n");
-
             archivo.seek(40);
             archivo.writeInt(tamañoRg);
             archivo.writeUTF(nombre);
-
             archivo.seek(70);
-
             archivo.writeChar('A');
             archivo.writeUTF("\r\n");
         }
