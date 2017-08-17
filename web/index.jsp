@@ -19,10 +19,11 @@
         <center>
             <%-- <a href="Columna.jsp">Creazione Nuovo Corso</a>--%>
             <%-- <a href="Columna.jsp">Liqui<input type="button" value="Cancel" name="cancel"/></a>--%>
+            <img src="METAMODEL.jpg" alt="Mountain View" style="width:304px;height:228px;">
             <table style="width:100%">
                 <tr>
-                    <th><a href="Esquema.jsp"><input type="button" value="COLUMN" name="schemaButton"/></a></th>
-                    <th><a href="Tabla.jsp"><input type="button" value="COLUMN" name="tableButton"/></a></th>
+                    <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton"/></a></th>
+                    <th><a href="Tabla.jsp"><input type="button" value="TABLE" name="tableButton"/></a></th>
                     <th><a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton"/></a></th>
                 </tr>
             </table>
