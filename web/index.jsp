@@ -62,6 +62,7 @@
                     }
                 }
             %>
+            <br></br>
             <div style="position: relative; bottom: 5px;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>    
     </body>
