@@ -8,14 +8,12 @@
  */
 package modelo;
 
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-/**
- *
- * @author Mario-Bx
- */
+
 public class Table
 {
     int tamañoRg;
