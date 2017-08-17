@@ -28,9 +28,7 @@
                     <th><a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton" style="font-size:22px; width:101%; height:50px;"/></a></th>
                 </tr>
             </table>
-            <br></br>
-            <br></br>
-            <div style="position: absolute; bottom: 5px; width:1350px; margin:0 auto;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
+            <div style="position: absolute; bottom: 5px; width:1350px; margin:0 auto;">Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>    
     </body>
 </html>
