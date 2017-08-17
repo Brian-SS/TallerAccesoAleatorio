@@ -12,7 +12,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>COLUMN</title>
+        <title> - COLUMN - </title>
     </head>
     <body>
     <center></center>
