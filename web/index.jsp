@@ -19,7 +19,8 @@
         <center>
             <%-- <a href="Columna.jsp">Creazione Nuovo Corso</a>--%>
             <%-- <a href="Columna.jsp">Liqui<input type="button" value="Cancel" name="cancel"/></a>--%>
-            <img src="METAMODEL.jpg" alt="Mountain View" style="width:304px;height:228px;">
+            <img src="METAMODEL.png" alt="Mountain View" style="width:204px;height:128px;">
+            <br></br>
             <table style="width:100%">
                 <tr>
                     <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton"/></a></th>
