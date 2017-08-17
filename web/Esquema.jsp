@@ -20,32 +20,7 @@
             <h1>Hello World!</h1>
             <form action="ControladorSchema" method="POST"></form>
             <%= modelo.Schema.saludar() %>
-            <%
-                String respuesta = (String) request.getAttribute("respuesta");
-                if (respuesta != null && respuesta.length() > 0) 
-                {
-            %>
-            <h1><%=respuesta%></h1>
-            <%
-                }
-            %>
-            <%--Action: URL del Servlet --%>
-            <form action="ControladorSchema" method="POST"></form>
-            <%
-                ArrayList<String> array = (ArrayList) request.getAttribute("array");
-                if (array != null)
-                {
-            %>       
-            <h1>Resultado Lista </h1>
-            <%               
-                    for (String elemento : array)
-                    {
-            %>
-            <h2><%=elemento%>
-            <%
-                    }
-                }
-            %>
+            
             <a href="index.jsp"><input type="button" value="INICIO" name="schemaReturn" style="font-size:22px;"/></a>
             <div style="position: absolute; bottom: 5px; width:1350px; margin:0 auto;">Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>
