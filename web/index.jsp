@@ -23,14 +23,14 @@
             <br></br>
             <table>
                 <tr>
-                    <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton" style="font-size:22px; width:98%; height:50px;"/></a></th>
+                    <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton" style="font-size:22px; width:101%; height:50px;"/></a></th>
                     <th><a href="Tabla.jsp"><input type="button" value="TABLE" name="tableButton"/></a></th>
                     <th><a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton"/></a></th>
                 </tr>
             </table>
             <br></br>
             <br></br>
-            <div style="position: relative; bottom: 5px;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
+            <div style="position: absolute; bottom: 5px;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>    
     </body>
 </html>
