@@ -15,10 +15,11 @@
         <title> - TABLE -</title>
     </head>
     <body>
-    <center></center>
+        <center>
         <h1>Hello World!</h1>
         
         <a href="index.jsp"><input type="button" value="INICIO" name="tableReturn" style="font-size:22px;"/></a>
         <div style="position: absolute; bottom: 5px; width:1350px; margin:0 auto;">Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.</div>
+        </center>
     </body>
 </html>
