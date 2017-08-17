@@ -23,8 +23,7 @@ public class TArchivoAleatorioWeb {
      */
     
     
-    //public static void main(String[] args) throws IOException
-    public void crear() throws FileNotFoundException
+    public static void main(String[] args) throws IOException
     {
         // TODO code application logic here 21
         
