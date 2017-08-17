@@ -8,20 +8,17 @@
  */
 package modelo;
 
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 
-/**
- *
- * @author Mario-Bx
- */
+
 public class TArchivoAleatorioWeb
 {
     /**
+     * @param args
      * @throws java.io.FileNotFoundException
      */
-    //public static void main(String[] args) throws IOException
-    public static void saludar() throws FileNotFoundException, IOException    
+    public static void main(String[] args) throws IOException  
     {
         // TODO code application logic here 21
         
