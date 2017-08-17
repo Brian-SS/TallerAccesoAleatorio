@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.Schema;
+import modelo.TArchivoAleatorioWeb;
 
 
 @WebServlet(name = "ControladorSchema", urlPatterns = {"/ControladorSchema"})
@@ -33,6 +34,9 @@ public class ControladorSchema extends HttpServlet
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
+        TArchivoAleatorioWeb alea = new TArchivoAleatorioWeb();
+        alea.crear();
+        
         Schema esquema = new Schema();
         esquema.saludar();
         response.setContentType("text/html;charset=UTF-8");
