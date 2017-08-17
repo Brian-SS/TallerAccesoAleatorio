@@ -37,11 +37,11 @@ public class ControladorSchema extends HttpServlet
     {
         Schema esquema = new Schema();
         esquema.saludar();
-        response.setContentType("text/html;charset=UTF-8");
+        /*response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter())
         {
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
+            /*out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet ControladorSchema</title>");            
@@ -49,7 +49,7 @@ public class ControladorSchema extends HttpServlet
             out.println("<body>");
             out.println("<h1>Servlet ControladorSchema at " + request.getContextPath() + "</h1>");
             out.println("</body>");
-            out.println("</html>");
+            out.println("</html>");*/
         }
     }
 
