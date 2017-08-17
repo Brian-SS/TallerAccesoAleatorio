@@ -18,8 +18,7 @@
     <body>
         <center>
             <%
-                String respuesta
-                        = (String) request.getAttribute("respuesta");
+                String respuesta = (String) request.getAttribute("respuesta");
                 if (respuesta != null && respuesta.length() > 0) 
                 {
             %>
@@ -28,15 +27,17 @@
                 }
             %>
             <%--Action: URL del Servlet --%>
-            <form action="HolaMundo" method="POST">
+            <form action="Controlador" method="POST">
                 <input type="text" name="saludo"/>
                 <input type="submit" name="enviar"/>
             </form>
-            <h1>Resultado Lista </h1>
             <%
                 ArrayList<String> array = (ArrayList) request.getAttribute("array");
                 if (array != null)
                 {
+            %>       
+            <h1>Resultado Lista </h1>
+            <%               
                     for (String elemento : array)
                     {
             %>

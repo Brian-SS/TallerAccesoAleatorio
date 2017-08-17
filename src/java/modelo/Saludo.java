@@ -16,16 +16,17 @@ import java.util.ArrayList;
  */
 public class Saludo 
 {
-    public String saludar(String nombre){
+    public String saludar(String nombre)
+    {
       return "Hola " + nombre;
     }
     
-    public ArrayList<String> listar(){
-      ArrayList resultado = new 
-            ArrayList();
-      resultado.add("A");
-      resultado.add("B");
-      resultado.add("C");
-      return resultado;
+    public ArrayList<String> listar()
+    {
+        ArrayList resultado = new ArrayList();
+        resultado.add("A");
+        resultado.add("B");
+        resultado.add("C");
+        return resultado;
     }
 }

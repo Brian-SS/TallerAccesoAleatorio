@@ -21,7 +21,6 @@ import modelo.Saludo;
  */
 public class Controlador extends HttpServlet
 {
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -33,7 +32,6 @@ public class Controlador extends HttpServlet
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-
         String variable = request.getParameter("saludo");
         //Verificacion
         if (variable != null)
@@ -42,10 +40,8 @@ public class Controlador extends HttpServlet
             Saludo saludo = new Saludo();
             String respuesta = saludo.saludar(variable);
             ArrayList<String> array = saludo.listar();
-
             //la variable que permite hacer el forward
-            RequestDispatcher rd
-                    = getServletContext().getRequestDispatcher("/index.jsp");
+            RequestDispatcher rd = getServletContext().getRequestDispatcher("/index.jsp");
             //Envio de datos entre: Servlet - jsp
             request.setAttribute("respuesta", respuesta);
             request.setAttribute("array", array);
