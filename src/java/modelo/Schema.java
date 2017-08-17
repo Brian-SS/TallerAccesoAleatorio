@@ -21,7 +21,7 @@ public class Schema
     int tamañoRg;
     boolean elExi = true;
     RandomAccessFile archivo;
-    public String saludar()
+    public static String saludar()
     {
       return "Hola Asshole";
     }

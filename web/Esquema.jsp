@@ -19,6 +19,7 @@
         <center>
             <h1>Hello World!</h1>
             <form action="ControladorSchema" method="POST"></form>
+            <%= modelo.Schema.saludar() %>
             <%
                 String respuesta = (String) request.getAttribute("respuesta");
                 if (respuesta != null && respuesta.length() > 0) 
