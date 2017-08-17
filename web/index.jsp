@@ -30,7 +30,7 @@
             </table>
             <br></br>
             <br></br>
-            <div style="position: absolute; bottom: 5px; width:1380px; margin:0 auto;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
+            <div style="position: absolute; bottom: 5px; width:1350px; margin:0 auto;">Copyright © 2017 METAMODEL S.A. - Todos los derechos reservados.</div>
         </center>    
     </body>
 </html>
