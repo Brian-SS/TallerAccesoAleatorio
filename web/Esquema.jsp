@@ -20,7 +20,6 @@
             <h1>Hello World!</h1>
             <form action="ControladorSchema" method="POST"></form>
             <%= modelo.Schema.saludar() %>
-            <%= modelo.Schema.crearArchivo() %>
             
             
             
