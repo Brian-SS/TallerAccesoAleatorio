@@ -24,8 +24,8 @@
             <table>
                 <tr>
                     <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton" style="font-size:22px; width:101%; height:50px;"/></a></th>
-                    <th><a href="Tabla.jsp"><input type="button" value="TABLE" name="tableButton"/></a></th>
-                    <th><a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton"/></a></th>
+                    <th><a href="Tabla.jsp"><input type="button" value="TABLE" name="tableButton" style="font-size:22px; width:101%; height:50px;"/></a></th>
+                    <th><a href="Columna.jsp"><input type="button" value="COLUMN" name="columnButton" style="font-size:22px; width:101%; height:50px;"/></a></th>
                 </tr>
             </table>
             <br></br>
