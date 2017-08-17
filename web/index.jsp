@@ -17,12 +17,10 @@
     </head>
     <body>
         <center>
-            <%-- <a href="Columna.jsp">Creazione Nuovo Corso</a>--%>
-            <%-- <a href="Columna.jsp">Liqui<input type="button" value="Cancel" name="cancel"/></a>--%>
+
             <img src="METAMODEL.png" alt="Mountain View" style="width:204px;height:128px;">
             <br></br>
             <h1>BIENVENIDOS</h1>
-            <br></br>
             <br></br>
             <table style="width:100%">
                 <tr>
@@ -63,14 +61,15 @@
             <h2><%=elemento%>
             <%
                     }
-                }
+    }
             %>
             <div style="position: relative;background-color: blue; width: 600px; height: 800px;">    
 
-    <div style="position: absolute; bottom: 5px; background-color: green">
+            <div style="position: absolute; bottom: 5px; background-color: green">
     TEST (C) 2010
     </div>
 </div>
+            <div style="position: absolute; bottom: 5px;"></div>
         </center>    
     </body>
 </html>
