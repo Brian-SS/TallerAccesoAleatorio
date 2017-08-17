@@ -8,6 +8,7 @@
  */
 package controlador;
 
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -17,10 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.Schema;
 
-/**
- *
- * @author BRIAN
- */
+
 @WebServlet(name = "ControladorSchema", urlPatterns = {"/ControladorSchema"})
 public class ControladorSchema extends HttpServlet
 {
