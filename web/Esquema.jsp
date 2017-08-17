@@ -17,7 +17,8 @@
     </head>
     <body>
         <center>
-            <h1>Hello World!</h1>
+            <h1>Seccion</h1>
+            <h2> - SCHEMA - </h2>
             <form action="ControladorSchema" method="POST"></form>
             <form>
                 First name:<input type="text" name="firstname">
@@ -27,11 +28,11 @@
             
             
             <%= modelo.Schema.saludar() %>
-            <%= modelo.TArchivoAleatorioWeb.saludar() %>
             
             
             <%
                 String respuesta = (String) request.getAttribute("respuesta");
+                
                 if (respuesta != null && respuesta.length() > 0) 
                 {
             %>
@@ -43,6 +44,7 @@
             <form action="ControladorSchema" method="POST"></form>
             <%
                 ArrayList<String> array = (ArrayList) request.getAttribute("array");
+                
                 if (array != null)
                 {
             %>       

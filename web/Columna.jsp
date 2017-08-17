@@ -16,7 +16,8 @@
     </head>
     <body>
         <center>
-            <h1>Hello World!</h1>
+            <h1>Seccion</h1>
+            <h2> - COLUMN - </h2>
         
         
             <a href="index.jsp"><input type="button" value="INICIO" name="columnReturn" style="font-size:22px;"/></a>
