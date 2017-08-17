@@ -15,15 +15,13 @@ import java.io.IOException;
  *
  * @author Mario-Bx
  */
-public class TArchivoAleatorioWeb {
-
+public class TArchivoAleatorioWeb
+{
     /**
-     * @param args the command line arguments
-     * @throws java.io.IOException
+     * @throws java.io.FileNotFoundException
      */
-    
-    
-    public static void main(String[] args) throws IOException
+    //public static void main(String[] args) throws IOException
+    public static void saludar() throws FileNotFoundException, IOException    
     {
         // TODO code application logic here 21
         

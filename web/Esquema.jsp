@@ -27,7 +27,7 @@
             
             
             <%= modelo.Schema.saludar() %>
-            
+            <%= modelo.TArchivoAleatorioWeb.saludar() %>
             
             
             <%
