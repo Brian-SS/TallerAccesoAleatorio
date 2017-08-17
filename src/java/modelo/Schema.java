@@ -21,7 +21,10 @@ public class Schema
     int tamañoRg;
     boolean elExi = true;
     RandomAccessFile archivo;
-
+    public String saludar()
+    {
+      return "Hola Asshole";
+    }
     public void crearArchivo() throws FileNotFoundException
     {
         this.archivo = new RandomAccessFile("Schema.txt", "rw");
