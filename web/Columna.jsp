@@ -1,7 +1,10 @@
 <%-- 
-    Document   : Columna
-    Created on : 16/08/2017, 09:23:06 PM
-    Author     : BRIAN
+ *  TALLER ARCHIVOS ACCESO ALEATORIO
+ *  co-Author ::: Juan Albarracin
+ *  co-Author ::: Mario Bolaños
+ *  co-Author ::: Brian Sterling
+ *  Professor ::: Fabian Giraldo
+ *    Program ::: Bases de Datos
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
