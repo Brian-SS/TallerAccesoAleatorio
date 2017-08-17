@@ -21,7 +21,7 @@
             <br></br>
             <h1>BIENVENIDOS</h1>
             <br></br>
-            <table style="width:100%">
+            <table>
                 <tr>
                     <th><a href="Esquema.jsp"><input type="button" value="SCHEMA" name="schemaButton"/></a></th>
                     <th><a href="Tabla.jsp"><input type="button" value="TABLE" name="tableButton"/></a></th>
