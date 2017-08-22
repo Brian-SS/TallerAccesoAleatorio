@@ -18,8 +18,6 @@
         <center>
             <h1>Seccion</h1>
             <h2> - COLUMN - </h2>
-        
-        
             <a href="index.jsp"><input type="button" value="INICIO" name="columnReturn" style="font-size:22px;"/></a>
             <div style="position: absolute; bottom: 5px;">
                 Copyright © 2017 - METAMODEL S.A. - Todos los derechos reservados.
