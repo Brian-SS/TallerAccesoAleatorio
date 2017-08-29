@@ -86,19 +86,22 @@ public class Column
         {
             archivo.seek(codigo * 70);
 
-            if ("tipoDato" == Campo)
+            if ("tipoDato".equals(Campo))
+                //if ("tipoDato" == Campo)
             {
                 archivo.skipBytes(4);
                 archivo.writeUTF(newDato);
             }
             
-            if ("nombre" == Campo)
+            if ("nombre".equals(Campo))
+                //if ("nombre" == Campo)
             {
                 archivo.skipBytes(27);
                 archivo.writeUTF(newDato);
             }
             
-            if ("fkTabla" == Campo)
+            if ("fkTabla".equals(Campo))
+                //if ("fkTabla" == Campo)
             {
                 archivo.skipBytes(27);
                 archivo.writeInt(Integer.parseInt(newDato));
