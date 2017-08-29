@@ -38,6 +38,7 @@ public class Schema
         archivo.seek(codigo * 40);
         archivo.skipBytes(30);
         char estado = archivo.readChar();
+        
         if ('A' == estado)
         {
             System.out.println("Elemento si existe");
@@ -82,6 +83,7 @@ public class Schema
     public void leerSch(int codigo) throws IOException
     {
         existe(codigo);
+        
         if (elExi == true)
         {
             archivo.seek((codigo * 40));
@@ -107,6 +109,7 @@ public class Schema
     public void borrarRegistro(int codigo) throws IOException
     {
         existe(codigo);
+        
         if (elExi == true)
         {
             archivo.seek(archivo.getFilePointer() - 2);
