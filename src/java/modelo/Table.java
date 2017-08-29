@@ -116,6 +116,7 @@ public class Table
     public void borrarRegistro(int codigo) throws IOException
     {
         existe(codigo);
+        
         if (elExi == true)
         {
             archivo.seek(archivo.getFilePointer() - 2);
