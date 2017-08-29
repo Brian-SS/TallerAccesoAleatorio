@@ -104,7 +104,7 @@ public class Table
                 archivo.writeUTF(newDato);
             }
             
-            if ("fkTabla" == Campo)
+            if ("fkTabla".equals(Campo))
                 //if ("fkTabla" == Campo)
             {
                 archivo.skipBytes(30);
