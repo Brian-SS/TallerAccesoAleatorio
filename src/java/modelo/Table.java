@@ -97,7 +97,8 @@ public class Table
         {
             archivo.seek(codigo * 50);
 
-            if ("nombre" == Campo)
+            if ("nombre".equals(Campo))
+                //if ("nombre" == Campo)
             {
                 archivo.skipBytes(4);
                 archivo.writeUTF(newDato);
