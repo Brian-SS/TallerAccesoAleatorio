@@ -105,6 +105,7 @@ public class Table
             }
             
             if ("fkTabla" == Campo)
+                //
             {
                 archivo.skipBytes(30);
                 archivo.writeInt(Integer.parseInt(newDato));
