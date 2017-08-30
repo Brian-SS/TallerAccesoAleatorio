@@ -47,12 +47,3 @@ public class Prueba
         XFAleatorios.close();
     }
 }
-
-
-
-// do the fucking work
-// don't be stuped
-// change habits
-// be better
-// think about the futture
-// be reazonable
