@@ -54,3 +54,5 @@ public class Prueba
 // don't be stuped
 // change habits
 // be better
+// think about the futture
+// be reazonable
