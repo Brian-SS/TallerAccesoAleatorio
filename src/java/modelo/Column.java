@@ -137,13 +137,3 @@ public class Column
         }
     }
 }
-
-fgnfg
-        yr 
-ij67
-i n6iu
-86ijigt
-y727ko
-27i9l
-,27y
-8876ry2k
