@@ -86,13 +86,3 @@ public class ControladorSchema extends HttpServlet
         return "Short description";
     }// </editor-fold>
 }
-
-gwrg
-        ar
-gr
-agegergg
-rhtyt
-hntyh
-nt
-jnm 67r
-635ws
