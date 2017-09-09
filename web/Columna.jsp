@@ -25,14 +25,4 @@
         </center>
     </body>
 </html>
-hcvbcb}
-h
-h
-
-h
-
-h
-h
-h
-
-vcvbcv
+what you do?
