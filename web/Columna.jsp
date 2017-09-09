@@ -25,16 +25,3 @@
         </center>
     </body>
 </html>
-
-uy
-vs
-er
-qw
-er
-ty
-ui
-op
-as
-df
-gh
-jk
