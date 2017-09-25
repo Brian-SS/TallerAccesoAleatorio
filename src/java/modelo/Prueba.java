@@ -68,5 +68,3 @@ public class Prueba
 19
 20
 21
-22
-23
