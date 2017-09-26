@@ -47,11 +47,3 @@ public class Prueba
         XFAleatorios.close();
     }
 }
-1
-
-
-
-
-
-
-
