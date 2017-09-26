@@ -33,8 +33,3 @@ public class TArchivoAleatorioWeb
         sch.borrarRegistro(1);   
     }  
 }
-1
-
-
-
-
