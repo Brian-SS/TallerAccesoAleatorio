@@ -18,6 +18,5 @@
         <h1>   - Goes Here -</h1>
         <h1>Web Page Content</h1>
         <h1>Web Page Content</h1>
-        <h1>Web Page Content</h1>
     </body>
 </html>
