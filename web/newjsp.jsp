@@ -1,9 +1,11 @@
 <%-- 
-    Document   : newjsp
-    Created on : 29/09/2017, 10:17:10 PM
-    Author     : BRIAN
+ *  TALLER ARCHIVOS ACCESO ALEATORIO
+ *   co-Author ::: Juan Albarracin
+ *   co-Author ::: Mario Bolaños
+ *   co-Author ::: Brian Sterling
+ *     Program ::: Bases de Datos
+ *  Credential ::: SIST0008-G01:SIV
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
