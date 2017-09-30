@@ -15,6 +15,5 @@
     </head>
     <body>
         <h1>Web Page Content</h1>
-        <h1>   - Goes Here -</h1>
     </body>
 </html>
