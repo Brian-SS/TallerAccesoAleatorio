@@ -14,6 +14,6 @@
         <title>VLC Ltda!!!</title>
     </head>
     <body>
-        <h1>Web Page Content</h1>
+        <h1>Web Page</h1>
     </body>
 </html>
